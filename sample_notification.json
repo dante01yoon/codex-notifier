@@ -1,0 +1,8 @@
+{
+  "type": "agent-turn-complete",
+  "last-assistant-message": "Output ready to review",
+  "input_messages": [
+    "User: Can you summarize the results?",
+    "Assistant: Here's what I found"
+  ]
+}
