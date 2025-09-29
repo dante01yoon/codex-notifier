@@ -134,7 +134,7 @@ def _resolve_sound(raw_sound: str | None) -> str | None:
     if resolved is not None:
         return resolved
 
-    print(f"Sound '{normalized}' not found; using Boop sound.", file=sys.stderr)
+    # print(f"Sound '{normalized}' not found; using Boop sound.", file=sys.stderr)
     return "Boop"
 
 
